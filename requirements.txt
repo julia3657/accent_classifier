@@ -1,0 +1,9 @@
+moviepy
+requests
+librosa
+torchaudio
+flask
+flask_cors
+speechbrain==0.5.16
+SpeechRecognition
+pydub
