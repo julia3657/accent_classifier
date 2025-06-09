@@ -1,4 +1,5 @@
 moviepy
+gunicorn
 requests
 librosa
 torchaudio
