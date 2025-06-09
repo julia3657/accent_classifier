@@ -805,7 +805,7 @@
 
         async function fullAnalysis(videoUrl, modelType) {
             try {
-                const response = await fetch('http://localhost:5000/full-analysis', {
+                const response = await fetch('http://english-accent-classifier-ui.onrender.com/full-analysis', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ url: videoUrl, model: modelType })
